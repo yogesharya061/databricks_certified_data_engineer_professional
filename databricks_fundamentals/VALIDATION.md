@@ -1,4 +1,4 @@
-# Validation and rehearsal status
+# Validation status
 
 ## Completed locally
 
@@ -21,14 +21,14 @@
 
 No Databricks credentials or workspace session was used to validate this pack. These local checks do not substitute for a workspace integration test.
 
-## Required before recording
+## Workspace validation checklist
 
 1. Confirm your workspace edition is appropriate for the intended use.
 2. Confirm the target catalog and storage path; select compatible compute.
 3. Run Cells 01–11 and obtain PASS.
 4. Confirm table type/provider in DESCRIBE TABLE EXTENDED.
-5. Query Gold from the SQL editor if you plan to show that segment.
+5. Query Gold from the SQL editor if a SQL warehouse is available.
 6. Run each failure and its repair, then reset its flag to False.
 7. Re-run the success path to ensure stable business results.
 
-The guide explicitly labels the external-table command as a conceptual template, not an executable prerequisite. Error messages and UI labels can differ across editions and runtime versions.
+Error messages and UI labels can differ across editions and runtime versions.

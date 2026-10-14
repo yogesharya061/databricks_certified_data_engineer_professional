@@ -1,10 +1,8 @@
-# Video 01 — Retail Lakehouse Foundations
+# Databricks Fundamentals — Retail Lakehouse
 
 Yogesshh Arya | Databricks Data Engineer Professional preparation
 
-Start with [RECORDING_GUIDE.md](RECORDING_GUIDE.md) for the full 85-minute runbook and inline code.
-Use [SPOKEN_SCRIPT.md](SPOKEN_SCRIPT.md) for friendly narration and recording cues.
-Open **ARCHITECTURE.html** in a browser for the recording visual.
+Build a retail lakehouse with Unity Catalog, managed volumes, and Bronze, Silver and Gold Delta tables. Practice data validation, deduplication, aggregation and troubleshooting.
 
 ## Run the lab
 
@@ -41,18 +39,11 @@ The demonstration uses a full snapshot replacement for its own files and tables.
 
 No automatic cleanup is included: keep these objects for later lessons. Remove only dedicated lab objects through your normal workspace process when no longer needed. Do not drop a shared catalog.
 
-Free Edition is serverless-only and subject to feature/usage restrictions and non-commercial-use terms. Consult the official reference in the recording guide for the appropriate environment for your purpose.
+Free Edition is serverless-only and subject to feature/usage restrictions and non-commercial-use terms. Review the [Free Edition limitations](https://docs.databricks.com/aws/en/getting-started/free-edition-limitations) when choosing an environment.
 
 ## Verification status
 
-Local checks cover syntax, notebook structure, deterministic fixtures, duplicates/rejections and metric arithmetic. The Databricks runtime, Unity Catalog APIs, volume I/O and SQL warehouse execution have not been executed by the authoring assistant. See VALIDATION.md and complete a workspace rehearsal before recording.
-
-## Publication
-
-Repository: [databricks_certified_data_engineer_professional](https://github.com/yogesharya061/databricks_certified_data_engineer_professional).
-Project folder: `databricks_fundamentals`.
-Suggested tag: `video-01`.
-Video URL: add the actual published URL here.
+Local checks cover syntax, notebook structure, deterministic fixtures, duplicates/rejections and metric arithmetic. The Databricks runtime, Unity Catalog APIs, volume I/O and SQL warehouse execution have not been executed by the authoring assistant. See VALIDATION.md and complete a workspace integration run.
 
 This is independent educational material, not an official Databricks course or an exam-question dump.
 
