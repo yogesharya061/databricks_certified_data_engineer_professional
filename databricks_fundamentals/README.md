@@ -1,7 +1,5 @@
 # Databricks Fundamentals — Retail Lakehouse
 
-Yogesshh Arya | Databricks Data Engineer Professional preparation
-
 Build a retail lakehouse with Unity Catalog, managed volumes, and Bronze, Silver and Gold Delta tables. Practice data validation, deduplication, aggregation and troubleshooting.
 
 ## Run the lab
